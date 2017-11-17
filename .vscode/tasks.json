@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/EFCore.ManyToMany.FluentAPI/EFCore.ManyToMany.FluentAPI.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
